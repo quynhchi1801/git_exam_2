@@ -16,3 +16,8 @@ git add <tên file> : cập nhật thay đổi có trong file hoặc tệp
 
 git commit -m "Thông điệp" : ghi lại các thay đổi vào kho lưu trữ ( thêm các thông điệp vào mỗi commit)
 
+git diff : so sánh sự thay đổi kể từ lần commit cuối cùng
+
+git log : hiển thị số lần commit
+
+git push origin <tên nhánh> : đưa code lên github(remote repository)
