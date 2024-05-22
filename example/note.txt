@@ -1,0 +1,18 @@
+mkdir "tên thư mục": dùng để tạo một thư mục mới
+<drive>:
+Chỉ định ổ đĩa mà bạn muốn tạo thư mục mới.
+<path>
+Chỉ định tên và vị trí của thư mục mới. Độ dài tối đa của bất kỳ đường dẫn đơn nào được xác định bởi hệ thống tệp.
+Đây là một tham số bắt buộc
+
+cd <tên thư mục> : sử dụng để truy cập tới một thư mục 
+cd .. : dùng để quay lại thư mực trước đó
+cd ..\.. : quay lại 2 thư mục 
+
+ls : hiển thị tất cả các file có trong thư mục 
+
+git add . hoặc git add --all : cập nhật toàn bộ sự thay đổi có trong dự án
+git add <tên file> : cập nhật thay đổi có trong file hoặc tệp 
+
+git commit -m "Thông điệp" : ghi lại các thay đổi vào kho lưu trữ ( thêm các thông điệp vào mỗi commit)
+
