@@ -11,6 +11,8 @@ cd ..\.. : quay lại 2 thư mục
 
 ls : hiển thị tất cả các file có trong thư mục 
 
+git status : hiển thị thông tin về nhánh
+
 git add . hoặc git add --all : cập nhật toàn bộ sự thay đổi có trong dự án
 git add <tên file> : cập nhật thay đổi có trong file hoặc tệp 
 
@@ -21,3 +23,6 @@ git diff : so sánh sự thay đổi kể từ lần commit cuối cùng
 git log : hiển thị số lần commit
 
 git push origin <tên nhánh> : đưa code lên github(remote repository)
+git pull origin <tên nhánh> : tải dự án về máy
+
+git add README.md : tạo file mô tả thông tin dự án (README.md)
